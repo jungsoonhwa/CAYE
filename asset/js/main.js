@@ -631,7 +631,25 @@ $(function () {
             button ( $(this).index()+1 );
         }
     })
-    
+        // 클릭 이벤트 : 비주얼버튼
+    $('.quick_menu>a').click(function(){
+        if( $(this).index()== 2 ) { // 연혁
+            i = 2;
+            onepage.css("top", -100 * i + "%").removeClass('on').eq(i).addClass('on');
+            darkTheme ();
+            resetPage (i);
+        } else { // 비전미션
+            i = 1;
+            onepage.css("top", -100 * i + "%").removeClass('on').eq(i).addClass('on');
+            darkTheme ();
+            if( $(this).index() == 1) {
+                resetPage (i);
+                button($(this).index()+1);
+                return;
+            }
+            button ( $(this).index()+1 );
+        }
+    })
     // 클릭 이벤트 : 비즈니스영역 리스트
     $('.business_area > .indicator a').click(function () {
         k = $(this).parent('li').index();
@@ -687,7 +705,7 @@ $(function () {
             $(".VMcont").css("margin-top", mt + "px");
             $(".VMbg").css("margin-top", mt*0.3 + "px");
             
-        } else if ( page == $('#page3').index() ) { // index == 2 // 히스토리
+        }  else if ( page == $('#page3').index() ) { // index == 2 // 히스토리
             
             ml = ml + (wheelDelta * 0.3);
             if ( ml > 0) {
