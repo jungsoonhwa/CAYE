@@ -286,9 +286,9 @@ h3.tle_h3.bullet_h3:before { content: ""; position: absolute; z-index: -1; displ
 #page3 { color: #fff; }
 #page3 > .history_bg { position: absolute; width: 100%; height: 100%; }
 #page3 > .history_bg > * { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: no-repeat top right/ cover; opacity: 0; -webkit-transition: opacity 1s; transition: opacity 1s; }
-#page3 > .history_bg > .on { opacity: 1; }
-#page3 > .history_bg .bg1 { background-image: url(..img/bg_history01.png); }
-#page3 > .history_bg .bg2 { background-image: url(../img/bg_history02.png); }
+#page3 > .history_bg > .on { opacity: 0.6; }
+#page3 > .history_bg .bg1 { background-image: url(../img/h_bg.png); }
+#page3 > .history_bg .bg2 { background-image: url(../img/h_bg.png); }
 #page3 > .history_bg .bg3 { background-image: url(../img/bg_history03.png); }
 #page3 > .wrap { position: relative; width: 90%; margin: 0 auto; }
 #page3 h3.tle_h3.bullet_h3 { margin: 158px 0 91px 0; }
