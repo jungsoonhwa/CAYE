@@ -199,7 +199,7 @@ h3.tle_h3.bullet_h3:before { content: ""; position: absolute; z-index: -1; displ
 
 .mobile_init { display: none; }
 
-.mVbg { background: url(..img/bg_main_visual.png) no-repeat center/cover; width: 143%; min-width: 2500px; height: 283%; min-height: 2500px; position: absolute; top: 100%; left: 50%; -webkit-transform: translate(-50%, -50%) rotate(0deg); transform: translate(-50%, -50%) rotate(0deg); -webkit-animation: mVbgRotate 360s infinite linear; animation: mVbgRotate 360s infinite linear; }
+.mVbg { background: url(../img/bg_main_visual.png) no-repeat center/cover; width: 123%; min-width: 1900px; height: 283%; min-height: 2500px; position: absolute; top: 100%; left: 50%; -webkit-transform: translate(-50%, -50%) rotate(0deg); transform: translate(-50%, -50%) rotate(0deg); -webkit-animation: mVbgRotate 360s infinite linear; animation: mVbgRotate 360s infinite linear; }
 
 #page1 > .wrap { position: relative; margin: 0 auto; width: 100%; max-width: 1680px; height: 100%; font-size: 28px; }
 #page1 .mVtxt { position: absolute; top: calc( 50% + 79px / 2 ); left: 50px; z-index: 1; margin-top: -219px; width: 100%; color: #fff; }
@@ -417,7 +417,7 @@ h3.tle_h3.bullet_h3:before { content: ""; position: absolute; z-index: -1; displ
 #page6 .DVbox_area { position: absolute; left: 50%; bottom: 60px; width: 90%; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
 #page6 .DVbox_area > .tle_h3.DV { margin-bottom: 15px; font-size: 24px; font-weight: bold; letter-spacing: 0.1em; }
 #page6 .DVbox { overflow: hidden; width: 100%; }
-#page6 .DVbox > dl { float: left; display: inline-block; position: relative; margin-right: 28px; padding: 111px 49px 0; width: calc(20% - 28px*4/5); height: 326px; font-size: 1.1vw; font-weight: normal; background-color: #00203f; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#page6 .DVbox > dl { float: left; display: inline-block; position: relative; margin-right: 28px; padding: 111px 49px 0; width: calc(50% - 28px*4/5); height: 326px; font-size: 1.1vw; font-weight: normal; background-color: #00203f; -webkit-box-sizing: border-box; box-sizing: border-box; }
 #page6 .DVbox > dl.wide { padding: 111px 37px 0; }
 #page6 .DVbox > dl:last-child { margin-right: 0; }
 #page6 .DVbox > dl::before { content: ""; display: inline-block; position: absolute; top: 53px; width: 55px; height: 55px; }
