@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* *******************************************************
+ * filename : main_responsive.css
+ * description : 메인 레이아웃 및 컨텐츠 반응형 CSS
+ * date : 2020-11-25
+******************************************************** */
+
+/* ******************  메인 비주얼 ********************** */
+@media all and ( max-width: 1024px ){
+	/* 공통 :: 레이아웃 */
+	#fullpage .section:not(#mainVisual){height:auto !important;}
+	#fullpage .fp-section:not(#mainVisual) .fp-tableCell{padding-top:0; height:0 !important;}
+}
+@media all and ( max-width: 1660px ){
+	/* 메인 비주얼 :: 텍스트 */
+	.main-slider-item .main-visual-txt-inner{padding-left:50px}
+}
+@media all and ( max-width: 1024px ){	
+	/* 메인 비주얼 :: 텍스트 */
+	.main-slider-item .main-visual-txt-inner{padding-left:0}
+	/* 메인 비주얼 :: 스크롤아이콘 */
+	.main-scroll-icon{display:none}
+	/* 메인 비주얼 :: 컨트롤러 */
+	.cm-style-control{width:100%; height:10rem}
+}
+@media all and ( max-width: 800px ){	
+	/* 메인 비주얼 :: 텍스트 */
+	.main-slider-item .main-visual-txt-inner{margin-top:-2rem}
+	.main-slider-item .main-visual-txt-con .main-visual-txt1{margin-bottom:3rem}
+	.main-slider-item .main-visual-txt-con .main-visual-txt2{font-size:5.25rem; line-height:1; margin-bottom:6.25rem}
+	.main-visual-txt-con .main-visual-more-btn a:before{width:50px; height:50px}
+	.main-visual-txt-con .main-visual-more-btn a{height:50px; padding:0 0 0 30px; line-height:50px}
+	.main-visual-txt-con .main-visual-more-btn a b{padding-right:0}
+	/* 메인 비주얼 :: pause,play */
+	.pause-btn-con .slick-control-btns button i{top:0}
+}
+@media all and ( max-width: 480px ){	
+	/* 메인 비주얼 :: 텍스트 */
+	.main-slider-item .main-visual-txt-con .main-visual-txt2 br{display:none}
+}
+@media all and ( max-width: 800px ) and (max-height: 570px) {		
+	#mainVisual{min-height:570px !important}
+}
+
+/* ******************  메인 컨텐츠 ********************** */
+/* -------- 메인 컨텐츠 :: 공통 -------- */
+@media all and ( max-width: 800px ){
+	/* 공통 :: 타이틀 */
+	.main-tit-box .main-tit{font-size:7rem}
+	.main-tit-box .main-sub-tit{display:none}
+}
+@media all and ( max-width: 800px ){
+	.main-tit-box .main-tit{font-size:6rem}
+}
+
+/* -------- 메인 컨텐츠 :: 컨텐츠1(실내환경 관리) -------- */
+@media all and ( max-width: 1366px ){	
+	 /* 좌측 컨텐츠 */
+	.main-envi-lf-con .envi-txt{right:7.5%; bottom:5%}
+}
+@media all and ( max-width: 1024px ){	
+	.main-visual-wrapper{margin-right:0; height:auto}
+	/* 좌측 컨텐츠 */
+	.main-envi-lf-con{position:relative; height:600px}
+	.main-envi-lf-con .envi-txt{right:0; left:0; text-align:center; bottom:4rem}
+	.main-envi-lf-con .envi-txt dd{margin-top:1rem}
+    /* 우측 컨텐츠 :: 제품 슬라이드 */
+	.main-envi-rt-con{position:relative; right:auto; width:auto; display:block; height:auto; padding:3rem 0 15rem}
+	.main-envi-rt-con .main-envi-rt-slide{display:block}
+	.main-envi-rt-con .main-envi-rt-slide .envi-rt-slide-list{height:auto; margin-top:0}
+	.main-envi-rt-slide li .envi-prd-img span{padding-top:45%}
+	.main-envi-rt-slide li .envi-prd-txt .txt{margin-top:1.5rem}
+	.main-envi-rt-slide li .envi-prd-txt .more-btn{margin-top:2rem}
+	.envi-control{top:auto; bottom:0}
+}
+@media all and ( max-width: 800px ){	
+	/* 좌측 컨텐츠 */
+	.envi-lf-slide{height:auto}
+	.main-envi-lf-con{height:0; padding-top:100%}
+	.main-envi-lf-con .envi-txt{bottom:5%}
+	.main-envi-lf-con .envi-txt dt{font-size:5rem}
+	.main-envi-lf-con .envi-txt dd{display:none}
+}
+
+
+/* -------- 메인 컨텐츠 :: 컨텐츠2(Company) -------- */
+@media all and ( max-width: 1024px ){		
+	#mainCompany{padding:5rem 0 7rem}
+	#mainCompany:after{display:none}
+	#mainCompany:before{position:absolute; content:""; bottom:0; left:0; width:100%; height:30%; background-color:#ebf0f3; }
+	.main-cp-wrap,.main-cp-wrap > div{display:block; }
+	.main-cp-wrap .main-cp-txt .cp-link-list{max-width:none; margin:2rem -2% 5rem}
+	.main-cp-wrap .main-cp-txt .cp-link-list li{width:46%; margin:0 2%}
+	.main-cp-wrap .main-cp-txt .cp-link-list li a i{right:0}
+	.main-cp-wrap .main-cp-img{width:100%}
+}
+@media all and ( max-width: 800px ){	
+	.main-cp-wrap .main-cp-txt .cp-link-list{margin-top:0}
+}
+@media all and ( max-width: 480px ){	
+	.main-cp-wrap .main-cp-txt .cp-link-list{margin:0 0 5rem}
+	.main-cp-wrap .main-cp-txt .cp-link-list li{width:100%; margin:0}
+}
+
+
+
+/* -------- 메인 컨텐츠 :: 컨텐츠3(Public Relations) -------- */
+@media all and ( max-width: 1645px ){	
+	.main-public-wrap,
+	.main-public-slide{left:auto; margin-left:30px}
+}
+@media all and ( max-width: 1024px ){	
+	#mainPublic{padding:5rem 0 7rem}
+	.main-public-wrap,.main-public-slide{margin-left:15px; margin-right:15px}
+	.main-public-con .main-public-wrap{margin-left:0}
+}
+@media all and ( max-width: 800px ){
+	.main-public-con{padding:0 15px}
+	.main-public-con .area-box{padding:0}
+	.main-public-slide{margin:5rem 0 0}
+	.main-public-slide li{min-width:auto}
+	.main-public-slide li a{padding:10% 9%}
+	.public-control.cm-style-control{margin-top:3rem}
+}
+
+
+/* ******************  메인 오른쪽 퀵메뉴 (Fullpage) ********************** */
+@media all and (max-width:1660px){
+	#fp-nav{left:0}
+}
+@media all and (max-width:1024px){
+	#fp-nav{display:none;}
+}
+
+
+/* ******************  메인 비주얼 :: 처음들어왔을 때 효과 ********************** */
+@media all and (max-width:1660px){
+	.active-page #fp-nav,
+	.active-page .main-scroll-icon{left:15px}
+}
