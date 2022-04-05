@@ -41,94 +41,8 @@
     </script>
     
 
+
 <style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
-@keyframes caretBlink {
-    from { opacity: 1.0; }
-    to { opacity: 0.0; }
-}
-
-@keyframes rotateSpinner {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-
-#text-tool-caret {
-    animation-name: caretBlink;  
-    animation-iteration-count: infinite;  
-    animation-timing-function: cubic-bezier(1.0,0,0,1.0);
-    animation-duration: 1s; 
-}
-
-#en-markup-loading-spinner {
-    position: absolute;
-    top: calc(50% - 16px);
-    left: calc(50% - 16px);
-    width: 32px;
-    height: 32px;
-}
-
-#en-markup-loading-spinner img {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    animation-name: rotateSpinner;
-    animation-duration: 0.6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.skitchToastBoxContainer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 30px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    pointer-events: none;
-}
-
-.skitchToastBox {
-    width: 200px;
-    height: 16px;
-    padding: 12px;
-    background-color: rgba(47, 55, 61, 0.95);
-    border-radius: 4px;
-    color: white;
-    cursor: default;
-    font-size: 10pt;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.32);
-    font-family: 'Soleil', Helvetica, Arial, sans-serif;
-    border: 2px rgba(255, 255, 255, 0.38) solid;
-}
-
-.lang-zh-cn .skitchToastBox {
-    font-family: '微软雅黑', 'Microsoft YaHei', SimSun,
-        '&#x30E1;&#x30A4;&#x30EA;&#x30AA;', Meiryo, 'MS PGothic', 'Soleil',
-        Helvetica, Arial, sans-serif;
-}
-
-.lang-ja-jp .skitchToastBox {
-    font-family: '&#x30E1;&#x30A4;&#x30EA;&#x30AA;', Meiryo, 'MS PGothic',
-        '微软雅黑', 'Microsoft YaHei', SimSun, 'Soleil', Helvetica, Arial,
-        sans-serif;
-}
-
-.skitchToast {
-    padding-left: 20px;
-    padding-right: 20px;
-    display: inline-block;
-    height: 10px;
-    color: #f1f5f8;
-    text-align: center;
-}
-
-
-</style> 
-    <style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
 
 @font-face {
 	font-family: 'Soleil';
@@ -150,12 +64,12 @@
         <h1 class="logo" id="mainlogo"><a href=""><span class="blind">CAYE</span></a></h1>
         <div class="quick_menu">
             <h2 class="blind">퀵 메뉴 영역</h2>
-            <ul class="area">
-                <li class="brochure"><a href="#page1" title="CAYE 회사소개서 ">회사소개</a></li>
-                <li><a href="#this" data-section="#page4">제품소개</a></li>
-                <li><a href="#this" data-section="#page4">SOLUTION</a></li>
-                <li><a  href="#this" data-section="#page6">인재체용</a></li>
-                <li><a href="#page8"  title="">오시는길</a></li>
+            <ul class="area ">
+                <li class="brochure"><a href="#this" data-section="#page2" title="CAYE 회사소개서 ">회사소개</a></li>
+                <li><a href="index.html#page4" data-section="#page4">제품소개</a></li>
+                <li><a href="index.html#page5" data-section="#page4">SOLUTION</a></li>
+                <li><a href="index.html#page6" data-section="#page6">인재체용</a></li>
+                <li><a href="#this" data-section="#page8">오시는길</a></li>
             </ul>
             <a class="nvMenu menu-trigger" href="#">
                 <p class="blind">메뉴</p>
@@ -192,16 +106,14 @@
                 </li>
                 <li class="depth1 solution"><a href="#this" data-section="#page4">SOLUTION</a>
                     <ul>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution01" id="chinform">CIM</a></li>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution02" id="bigdata">RTMS</a></li>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution05" id="smartcity">) ROS / PCC </a></li>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution07" id="businesssystem">DMS / TMS / RCS</a></li>
+                        <li class="depth2"><a href="" id="chinform">CIM</a></li>
+                        <li class="depth2"><a href="" id="bigdata">RTMS</a></li>
+                        <li class="depth2"><a href="" id="smartcity">) ROS/PCC </a></li>
+                        <li class="depth2"><a href="" id="businesssystem">DMS/TMS/RCS</a></li>
                     </ul>
                 </li>
                 <li class="depth1"><a href="#this" data-section="#page6">RECRUIT</a></li>
-                <li class="depth1"><a href="#this" data-section="#page7">LOCATION</a>
-                   
-                </li>
+                <li class="depth1"><a href="#this" data-section="#page7">LOCATION</a></li>
                 <li class="depth1"><a href="#this" data-section="#page8">CONTACT</a></li>
             </ul>
             <div class="company_area">
@@ -569,7 +481,7 @@
             <!-- //인재상 -->
 
             <!-- 오시는길 -->
-            <section id="page7" style="top: 0%;">
+            <section id="page7"  style="top: 0%;">
                 <div class="grid">
                     <div class="grid_line"><div class="current"></div></div>
                     <div class="grid_line"><div class="current"></div></div>
@@ -675,4 +587,5 @@
 
 
 
-</body></html>
+</body>
+</html>
