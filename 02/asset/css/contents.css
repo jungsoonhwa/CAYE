@@ -277,7 +277,7 @@
 #sub_cont .sSolWrap .sSol_top .sSol_topTle { font-size: 44.5px; font-weight: normal; text-align: center; }
 #sub_cont .sSolWrap .sSol_top .sSol_topTle > b { font-weight: 800; }
 #sub_cont .sSolWrap .sSol_top .sSol_topTle > b > span { color: #132c81; }
-#sub_cont .sSolWrap .sSol_top .sSol_topBox { border: 1px solid #ddd; padding: 65px 10px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; margin: 60px 0; }
+#sub_cont .sSolWrap .sSol_top .sSol_topBox { border: 1px solid #ddd; padding: 25px 10px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; margin: 20px 0 60px; }
 #sub_cont .sSolWrap .sSol_top .sSol_topBox span { color: #132c81; }
 #sub_cont .sSolWrap .sSol_top .sSol_topBox > img { display: inline-block; }
 #sub_cont .sSolWrap .sSol_top .sSol_topBox > strong { font-size: 36px; font-weight: 800; display: block; margin-top: 15px; }
@@ -285,9 +285,9 @@
 #sub_cont .sSolWrap .sSol_top .sSol_topBox > p b { font-weight: 800; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box { position: relative; padding: 125px 0; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box strong { color: #132c81; font-size: 46px; font-family: "10x10"; position: relative; }
-#sub_cont .sSolWrap .sSol_contWrap .sSol_box strong::before { display: inline-block; width: 73px; height: 35px; background: url(../img/its_sm.png) no-repeat center; content: ''; margin-right: 15px; background-size: 100%; }
+#sub_cont .sSolWrap .sSol_contWrap .sSol_box strong::before { display: inline-block; width: 0px; height: 35px; margin-right: 15px; background-size: 100%; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box strong::after { position: absolute; position: absolute; bottom: -5px; left: 0; content: ''; display: block; width: 35px; height: 1px; background: #ddd; }
-#sub_cont .sSolWrap .sSol_contWrap .sSol_box h4 { font-size: 55px; font-weight: bold; margin-bottom: 45px; }
+#sub_cont .sSolWrap .sSol_contWrap .sSol_box h4 { font-size: 55px; font-weight: bold; margin-bottom: 45px; line-height: 1.2 }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box > h4, #sub_cont .sSolWrap .sSol_contWrap .sSol_box > strong { display: none; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_img { width: calc(100% - 1050px); height: 722px; background-repeat: no-repeat; float: right; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont { width: 965px; position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); font-weight: 600; left: 0; }
@@ -297,19 +297,18 @@
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont ul li { position: relative; padding-left: 15px; color: #595959; font-size: 18px; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont ul li::before { content: ''; width: 5px; height: 5px; background: #555; display: block; position: absolute; top: 12px; left: 0; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow { margin-bottom: 12px; }
-#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div { border: 1px solid #ddd; -webkit-box-sizing: border-box; box-sizing: border-box; min-height: 110px; width: 49%; border-radius: 5px; display: table; position: relative; padding: 10px 10px 10px 117px; box-sizing: border-box; color: #595959; font-size: 18px; }
+#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div { border: 1px solid #ddd; -webkit-box-sizing: border-box; box-sizing: border-box; min-height: 110px; width: 32%; border-radius: 5px; display: table; position: relative; padding: 10px 10px 10px 117px; box-sizing: border-box; color: #595959; font-size: 18px; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div em { width: 62px; height: 62px; border-radius: 62px; background-color: #e9e9ea; display: block; position: absolute; top: 50%; left: 30px; -webkit-transform: translateY(-50%); transform: translateY(-50%); background-repeat: no-repeat; background-position: center; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div span { display: table-cell; vertical-align: middle; line-height: 24px; word-break: keep-all; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow .sSol_charRow_sm { display: table-cell; vertical-align: middle; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow .sSol_charRow_sm b { font-weight: 800; display: block; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow .sSol_charRow_sm span { font-size: 16px; line-height: 20px; -webkit-transform: skewY(-0.03deg); transform: skewY(-0.03deg); }
-#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div:nth-of-type(1) { float: left; }
-#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div:nth-of-type(2) { float: right; }
+#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div { float: left;margin-right: 1% }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_ex { background: #f5f5f5; padding: 18px 35px; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 5px; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_ex dl { width: 100%; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_ex dl * { display: inline-block; -webkit-transform: skewY(-0.03deg); transform: skewY(-0.03deg); vertical-align: top; }
-#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_ex dt { width: 120px; font-weight: 800; -webkit-transform: skewY(-0.03deg); transform: skewY(-0.03deg); }
-#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_ex dd { width: calc(49% - 120px); color: #808080; font-size: 14px; }
+#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_ex dt { width: 50px; font-weight: 800; -webkit-transform: skewY(-0.03deg); transform: skewY(-0.03deg); }
+#sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_ex dd { width: calc(95% - 50px); color: #808080; font-size: 14px; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box:nth-of-type(2n) .sSol_cont { right: 0; left: auto; }
 #sub_cont .sSolWrap .sSol_contWrap .sSol_box:nth-of-type(2n) .sSol_img { float: left; }
 
@@ -391,7 +390,7 @@
   #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont .sSol_char .sSol_charRow > div { width: 100%; margin-bottom: 10px; }
   #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_img { width: 46%; }
   #sub_cont .sSolWrap .sSol_contWrap .sSol_box .sSol_cont { width: 50%; }
-  #sub_cont .sSolWrap .sSol_top .sSol_topBox > img { width: 90px; } }
+  #sub_cont .sSolWrap .sSol_top .sSol_topBox > img {} }
 @media (max-width: 900px) { #sub_cont .sBusiness_wrap .sBusiness_box { padding: 0; margin-bottom: 100px; }
   #sub_cont .sBusiness_wrap .sBusiness_box .sBusiness_cont { position: relative; width: 100%; top: 0; -webkit-transform: translateY(0px); transform: translateY(0px); float: left; padding-left: 0; }
   #sub_cont .sBusiness_wrap .sBusiness_box .sBusiness_img { width: 100% !important; height: 350px !important; background-size: cover; background-position: center !important; }
@@ -466,7 +465,7 @@
   #sub_cont .blueBox .s6_contWrap .s6_contL .s6_cList > strong { font-size: 24px; }
   #sub_cont .s7Wrap .s7_row .s7_box > strong { font-size: 25px; margin-bottom: 0px !important; }
   #sub_cont .s7Wrap .s7_row .s7_box > p { font-size: 17px; line-height: 1.8; }
-  #sub_cont .sSolWrap .sSol_top .sSol_topBox > img { width: 55px; }
+  #sub_cont .sSolWrap .sSol_top .sSol_topBox > img {  }
   #sub_cont .sSolWrap .sSol_top .sSol_topBox > strong { font-size: 22px; }
   #sub_cont .sub_Txt, #sub_cont .sSolWrap .sSol_top .sSol_topBox > p { font-size: 16px; }
   #sub_cont .sSolWrap .sSol_top .sSol_topBox { padding: 35px 10px; margin: 20px 0 60px; }
