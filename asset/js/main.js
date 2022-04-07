@@ -18,6 +18,7 @@ $(function () {
     var onepage = $("#main section");
     var l = $("section").length;
     var jL = $(".mVtxt>div").length;
+    var qn = $(".quick_menu").length;
     var kL = $(".business_area").find(".cont").length;
     var hL = $('.history_tabs>li').length;
     var mtMax = -( $(".VMcont").outerHeight() - $(window).height() - 30);
@@ -650,6 +651,8 @@ $(function () {
             button ( $(this).index()+1 );
         }
     })
+    
+   
     // 클릭 이벤트 : 비즈니스영역 리스트
     $('.business_area > .indicator a').click(function () {
         k = $(this).parent('li').index();
