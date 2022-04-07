@@ -41,97 +41,8 @@
     </script>
     
 
+
 <style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
-@keyframes caretBlink {
-    from { opacity: 1.0; }
-    to { opacity: 0.0; }
-}
-
-@keyframes rotateSpinner {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-
-#text-tool-caret {
-    animation-name: caretBlink;  
-    animation-iteration-count: infinite;  
-    animation-timing-function: cubic-bezier(1.0,0,0,1.0);
-    animation-duration: 1s; 
-}
-
-#en-markup-loading-spinner {
-    position: absolute;
-    top: calc(50% - 16px);
-    left: calc(50% - 16px);
-    width: 32px;
-    height: 32px;
-}
-
-#en-markup-loading-spinner img {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    animation-name: rotateSpinner;
-    animation-duration: 0.6s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.skitchToastBoxContainer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 30px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    pointer-events: none;
-}
-
-.skitchToastBox {
-    width: 200px;
-    height: 16px;
-    padding: 12px;
-    background-color: rgba(47, 55, 61, 0.95);
-    border-radius: 4px;
-    color: white;
-    cursor: default;
-    font-size: 10pt;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.32);
-    font-family: 'Soleil', Helvetica, Arial, sans-serif;
-    border: 2px rgba(255, 255, 255, 0.38) solid;
-}
-
-.lang-zh-cn .skitchToastBox {
-    font-family: '微软雅黑', 'Microsoft YaHei', SimSun,
-        '&#x30E1;&#x30A4;&#x30EA;&#x30AA;', Meiryo, 'MS PGothic', 'Soleil',
-        Helvetica, Arial, sans-serif;
-}
-
-.lang-ja-jp .skitchToastBox {
-    font-family: '&#x30E1;&#x30A4;&#x30EA;&#x30AA;', Meiryo, 'MS PGothic',
-        '微软雅黑', 'Microsoft YaHei', SimSun, 'Soleil', Helvetica, Arial,
-        sans-serif;
-}
-
-.skitchToast {
-    padding-left: 20px;
-    padding-right: 20px;
-    display: inline-block;
-    height: 10px;
-    color: #f1f5f8;
-    text-align: center;
-}
-
-
-</style>
-    
-    
-    
-    <style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
 
 @font-face {
 	font-family: 'Soleil';
@@ -150,16 +61,15 @@
 
     <!-- HEADER -->
     <header id="header" class="">
-        <h1 class="logo" id="mainlogo"><a href=""><span class="blind">CAYE</span></a></h1>
-
+        <h1 class="logo" id="mainlogo"><a href="index.html"><span class="blind">CAYE</span></a></h1>
         <div class="quick_menu">
             <h2 class="blind">퀵 메뉴 영역</h2>
-            <ul class="area">
-                <li class="brochure"><a href="#page1" title="CAYE 회사소개서 ">회사소개</a></li>
-                <li><a href="#this" data-section="#page4">제품소개</a></li>
-                <li><a href="#this" data-section="#page4">SOLUTION</a></li>
-                <li><a  href="#this" data-section="#page6">인재체용</a></li>
-                <li><a href="#page8"  title="">오시는길</a></li>
+            <ul class="area ">
+                <li class="brochure"><a href="sub01.html" title="CAYE 회사소개서 ">회사소개</a></li>
+                <li><a href="sub02.html">제품소개</a></li>
+                <li><a href="sub03.html">SOLUTION</a></li>
+                <li><a href="index.html#page6">인재체용</a></li>
+                <li><a href="index.html#page7">오시는길</a></li>
             </ul>
             <a class="nvMenu menu-trigger" href="#">
                 <p class="blind">메뉴</p>
@@ -171,7 +81,7 @@
     </header>
     <!-- //HEADER -->
 
-    <div class="nvMenu_area">
+      <div class="nvMenu_area">
         <h2 class="blind">주메뉴 영역</h2>
         <nav>
             <a class="nvMenu menu-trigger" href="#">
@@ -182,30 +92,30 @@
             </a>
             <ul>
                 <li class="depth1 active">
-                    <a href="#this" data-section="#page1">COMPANY</a>
+                    <a href="index.html">COMPANY</a>
                     <ul style="display: block">
-                        <li class="depth2"><a href="#this" data-section="#page1">회사소개</a></li>
+                         <li class="depth2"><a href="sub01.html">회사소개</a></li>
                     </ul>
                 </li>
-                <li class="depth1 business"><a href="#this" data-section="#page4">제품소개</a>
+               <li class="depth1 business"><a href="#this" data-section="#page4">제품소개</a>
                     <ul>
-                        <li class="depth2"><a href="sub01.html" id="infra">디스플레이 / 반도체</a></li>
-                        <li class="depth2"><a href="cloud.html" id="cloud">2차 전지 / 자동차</a></li>
-                         <li class="depth2"><a href="cloud.html" id="cloud">솔루션</a></li>
+                        <li class="depth2"><a href="sub02.html#bus01" >PMR</a></li>
+                        <li class="depth2"><a href="sub02.html#bus02" >WACON</a></li>
+                         <li class="depth2"><a href="sub02.html#bus03" >SRC</a></li>
+                        <li class="depth2"><a href="sub02.html#bus04"> HRC</a></li>
                     </ul>
                 </li>
-                <li class="depth1 solution"><a href="#this" data-section="#page4">SOLUTION</a>
+                 <li class="depth1 solution"><a href="#this" data-section="#page4">SOLUTION</a>
                     <ul>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution01" id="chinform">CIM</a></li>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution02" id="bigdata">RTMS
+                        <li class="depth2"><a href="sub03.html#solution01" >CIM</a></li>
+                        <li class="depth2"><a href="sub03.html#solution02" >RTMS
 </a></li>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution05" id="smartcity">) ROS / PCC </a></li>
-                        <li class="depth2"><a href="page/solution.html?imgId=solution07" id="businesssystem">DMS / TMS / RCS</a></li>
+                        <li class="depth2"><a href="sub03.html#solution03">ROS / PCC </a></li>
+                        <li class="depth2"><a href="sub03.html#solution04">DMS / TMS / RCS</a></li>
                     </ul>
                 </li>
-                <li class="depth1"><a href="#this" data-section="#page6">RECRUIT</a></li>
+                  <li class="depth1"><a href="#this" data-section="#page6">RECRUIT</a></li>
                 <li class="depth1"><a href="#this" data-section="#page7">LOCATION</a>
-                   
                 </li>
                 <li class="depth1"><a href="#this" data-section="#page8">CONTACT</a></li>
             </ul>
@@ -393,7 +303,7 @@
             <!-- //연혁 -->
 
             <!-- 사업영역 및 솔루션 -->
-         <section id="page4" style="top: 0%;">
+            <section id="page4" style="top: 0%;">
                 <div class="business_area" id="business_area">
                     <ol class="indicator">
                         <li class="active"><a href="#this"><span class="num">01</span>첨단 제조공정</a></li>
@@ -406,7 +316,7 @@
                             <h3 class="tle_h3">첨단 제조공정</h3>
                             <p class="desc">디스플레이, 2차 전지, 반도체, Solar Cell, 자동차 등<br> 첨단 제조공정에 다양한 제품을 제공하고 있습니다</p>
                             <div class="lnk_wrap">
-                                <a href="page/infra.html" class="more">더 알아보기<i></i></a>
+                                <a href="sub02.html" class="more">더 알아보기<i></i></a>
                             </div>
                         </div>
                         <div class="cont">
@@ -414,7 +324,7 @@
                             <h3 class="tle_h3">솔루션</h3>
                             <p class="desc">월 컨트롤러 (IP Wall Controller) (Model : WACON Series)<br>스마트 원격제어 <br>PLC 멀티 모니터링 &amp; 원격제어</p>
                             <div class="lnk_wrap">
-                                <a href="page/cloud.html" class="more">더 알아보기<i></i></a>
+                                <a href="sub03.html" class="more">더 알아보기<i></i></a>
                             </div>
                         </div>
                        
@@ -516,7 +426,7 @@
                 <div class="recruit_area">
                     <div class="desc">
                         <h3 class="tle_h3">RECRUIT</h3>
-                        <p>끝없는 도전과 변화를 즐기는 범일<span class="tle_chinese">人</span>! <br>바로 당신입니다. </p>
+                        <p>끝없는 도전과 변화를 즐기는 CAYE<span class="tle_chinese">人</span>! <br>바로 당신입니다. </p>
                         <a class="more blue" href="#" target="_blank" title="새창">채용공고 보러가기<i></i></a>
                     </div>
                     <div class="BB_carousel ">
@@ -575,7 +485,7 @@
             <!-- //인재상 -->
 
             <!-- 오시는길 -->
-            <section id="page7" style="top: 0%;">
+            <section id="page7"  style="top: 0%;">
                 <div class="grid">
                     <div class="grid_line"><div class="current"></div></div>
                     <div class="grid_line"><div class="current"></div></div>
@@ -585,7 +495,7 @@
                 </div>
                 <div class="map">
                     <a class="active" href="http://naver.me/5bXYkRST" target="_blank" title="본사 오시는 길 새창">
-                        <img src="asset/map01_daegu.png" alt="본사 약도 - 자세한 위치는 아래의 내용을 참고하세요.">
+                        <img src="asset/img/map01.png" alt="본사 약도 - 자세한 위치는 아래의 내용을 참고하세요.">
                         <span class="map_marker">
                             <span class="pin"></span>
                             <span class="pulse"></span>
@@ -681,4 +591,5 @@
 
 
 
-</body></html>
+</body>
+</html>

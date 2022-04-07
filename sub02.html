@@ -26,6 +26,8 @@
     <script type="text/javascript" src="asset/js/sub.js"></script>
 
 
+
+   
     <style type="text/css">/* Copyright 2014-present Evernote Corporation. All rights reserved. */
 
 @font-face {
@@ -36,10 +38,10 @@
 }
 </style>
   
-</head>
+    </head>
 
 <body>
-    <div id="skip"><a href="index.html#main">본문 바로가기</a></div>
+        <div id="skip"><a href="index.html#main">본문 바로가기</a></div>
 
   <!-- HEADER -->
     <header id="header" class="">
@@ -48,11 +50,11 @@
         <div class="quick_menu">
             <h2 class="blind">퀵 메뉴 영역</h2>
             <ul class="area">
-                <li class="brochure"><a href="sub01.html" title="CAYE 회사소개서 ">회사소개</a></li>
-                <li><a href="index.html#page4" data-section="#page4">제품소개</a></li>
+                <li class="brochure"><a href="#page1" title="CAYE 회사소개서 ">회사소개</a></li>
+                <li><a href="#this" data-section="#page4">제품소개</a></li>
                 <li><a href="#this" data-section="#page4">SOLUTION</a></li>
                 <li><a  href="#this" data-section="#page6">인재체용</a></li>
-                <li><a href="index.html#page8"  title="">오시는길</a></li>
+                <li><a href="#page8"  title="">오시는길</a></li>
             </ul>
             <a class="nvMenu menu-trigger" href="#">
                 <p class="blind">메뉴</p>
@@ -73,7 +75,7 @@
                 <span></span>
                 <span></span>
             </a>
-            <ul>
+                   <ul>
                 <li class="depth1 active">
                     <a href="index.html">COMPANY</a>
                     <ul style="display: block">
@@ -104,8 +106,9 @@
                 <li class="depth1"><a href="#this" data-section="#page8_sub">CONTACT</a></li>
             </ul>
             <div class="company_area">
+                
                 <address>경기도 용인시 기흥구 기흥ICT밸리 SKV1 B1309호
-                    <span>T.031-321-0622</span><span>F.031-321-1622</span></address>
+<span>T.031-321-0622</span><span>F.031-321-1622</span></address>
             </div>
         </nav>
 
@@ -128,146 +131,114 @@
             <div class="sub_visual">
                 <div class="sub_visualIn">
                     <div class="cont">
-                       <h3><small>(주)CAYE</small> 경영이념과 비전</h3>
-                        <p>㈜카이의 경영이념과 비전은 항상 발전하는 회사를 만드는 것입니다. <br>
-                                    CAYE’s Innovative vision is to make us always evolving.</p>
+                        <h3><small>첨단 제조공정</small> SMART FACTORY</h3>
+                        <p>디스플레이, 2차 전지, 반도체, Solar Cell, 자동차 등 <br>첨단 제조공정에 다양한 제품을 제공하고 있습니다. </p>
                     </div>
                 </div>
-                <div class="sub_visualImg b01">
-                    <img src="asset//visual01.png" alt="">
+                <div class="sub_visualImg b02">
+                    <img src="asset/img/visual07.png" alt="">
                 </div>
             </div>
-            <div class="sub_navi sub_navi_bus">
+            <div class="sub_navi sub_navi_sol">
                 <ul>
-                     <li><a href="#01">CAYE PEOPLE</a></li>
-                    <li><a href="#02">사업개요</a></li>
-                    <li><a href="#03">사업영역</a></li>
-             
+                    <li><a href="#bus01">PMR - PLC 모니터링 &amp; 원격제어</a></li>
+                    <li><a href="#bus02">WACON - IP 월 컨트롤러</a></li>
+                    <li><a href="#bus03"> SRC  - 소프트웨어 원격제어 </a></li>
+                    <li><a href="#bus04"> HRC (하이브리드 원격제어)</a></li>
                 </ul>
             </div>
         </div>
         <div id="sub_cont">
-            <p class="sub_Txt wp1410">
-                <b>카이</b>는 20년 경험의 전문가로 구성된 그룹으로 <br>해당 사업 분야에서 인정 받은 인력을 중심으로 구성되었습니다.</p>
-
-            <div class="s1_circleWrap">
-                <p>CAYE PEOPLE</p>
-                <div class="s1_cWrap">
-                    <div class="s1_c s1_c1 scEffect fadeinbottom act">
-                        <div></div>
-                        <span>
-                            <b>Choi</b><br>System Architecture<br>
-                        ICT Solution Programming<br>
-                        Remote Control System
-                        </span>
-                    </div>
-                    <div class="s1_c s1_c2 scEffect fadeinbottom delay1 act">
-                        <div></div>
-                        <span><b>Ahn</b><br>Solution Design<br>
-                        Technical Sales &amp; Marketing<br>
-                        ICT Solution Consulting
-                        </span>
-                    </div>
-                    <div class="s1_c s1_c3 scEffect fadeinbottom delay2 act">
-                        <div></div>
-                        <span><b>Yoon</b><br>System Architecture<br>
-                        ICT Solution Programming<br>
-                        System Integration
-                        </span>
-                    </div>
-                    <div class="s1_c s1_c4 scEffect fadeinbottom delay3 act">
-                        <div></div>
-                        <span><b>Eom</b><br>Solution Design<br>
-                                Technical Sales &amp; Marketing<br>
-                                Vision System Consulting
-                        </span>
-                    </div>
+            <div id="bus01">
+            <h4 class="title">PLC Monitoring &amp; Remote control </h4>
+            <p class="sub_Txt wp1410">PLC Touch(HMI)의 원격지 상태 모니터링, 원격제어, 특정상태 자동인식,<br> 3G망을 통한 
+상태전송이 가능하도록 구현한 솔루션입니다.</p>
+            <div class="wp1150 scEffect fadeinbottom">
+                <img src="asset/img/sub02.png" alt="클라우드아키텍처" class="scEffect fadeinbottom act">
+                <div class="s2_cWrap">
+                    <div class="s2_c scEffect fadeinbottom act"><span> 상태 모니터링</span></div>
+                    <div class="s2_c scEffect fadeinbottom delay1 act"><span>원격제어</span></div>
+                    <div class="s2_c scEffect fadeinbottom delay2 act"><span>특정상태 자동인식</span></div>
                 </div>
             </div>
-            <div class="wp1410">
-
-                <div class="sBusiness_wrap">
-                    <div class="sBusiness_box scEffect fadeinbottom">
-                        <h4>기술을 남기는 회사를 만들겠습니다. </h4>
-                        <div class="sBusiness_img" style="height:420px; background-image:url(asset/img/bs1_1.jpg)"></div>
-                        <div class="sBusiness_cont">
-                            <h4>기술을 남기는 회사를 만들겠습니다.</h4>
-                            <p>I유수의 도전자들이 회사를 창업합니다. <br>
- 유수의 창업회사들이 역사속으로 사라집니다. <br>
- ㈜카이는 기술을 남기는 회사가 되도록 만들겠습니다. 
-</p>
-                        </div>
-                    </div>
-                    <div class="sBusiness_box scEffect fadeinbottom">
-                        <h4>신뢰를 쌓을 수 있는 회사가 되겠습니다</h4>
-                        <div class="sBusiness_img" style="height:440px; background-image:url(asset/img/bs1_2.jpg)"></div>
-                        <div class="sBusiness_cont">
-                            <h4>신뢰를 쌓을 수 있는 회사가 되겠습니다</h4>
-                            <p>회사는 이익 창출을 목적으로 만들어진 집단입니다. <br>
-이익 창출이란 경제적 관점에서의 이익만이 있는 것은 아닙니다. <br>
-서로가 신뢰할 수 있는 이익을 중요시 하는 회사가 되겠습니다.</p>
-                        </div>
-                    </div>
-                    <div class="sBusiness_box scEffect fadeinbottom">
-                        <h4>함께 성장하는 회사가 되겠습니다. </h4>
-                        <div class="sBusiness_img" style="height:465px; background-image:url(asset/img/bs1_3.jpg)"></div>
-                        <div class="sBusiness_cont">
-                            <h4>함께 성장하는 회사가 되겠습니다. </h4>
-                            <p>하나의 성공한 회사를 위해서는 여러 분야의 도움이 필요합니다.<br>
-고객, 협력업체, 함께하는 직원들 모두가 함께 성장하는데 <br>
-중심에 있는 회사가 되도록 노력하겠습니다. 
-</p>
-                        </div>
-                    </div>
-                  
-                </div>
-
-                <div class="v_line scEffect"></div>
-                <p class="sub_Txt scEffect fadeinbottom"><b>사업영역</b></p>
-                               <div class="wp1180">
-                                   <ul class="sol_box">
-                         
-                            <li>
-                                <h3>디스플레이 / 반도체</h3>
-                                <ul class="sol_list">
-                                    <li><a href="">CIM</a></li>
-                                    <li><a href="">RTMS</a></li>
-                                    <li><a href="">ROS / RCS </a></li>
-                                    <li><a href="">PCC</a></li>
-                                    <li><a href="">DMS / TMS / RCS </a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>2차 전지 / 자동차</h3>
-                                <ul class="sol_list">
-                                    <li><a href="">MES (CIM)</a></li>
-                                    <li><a href="">LC(Line Controller)</a></li>
-                                    <li><a href=""> ROS / RCS </a></li>
-                                    <li><a href="">충방전 모니터링 시스템</a></li>
-                                    <li><a href="">...</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h3>Solution</h3>
-                                <ul class="sol_list">
-                                    <li><a href="">PMR</a></li>
-                                    <li><a href="">WACON</a></li>
-                                    <li><a href="">SRC</a></li>
-                                    <li><a href="">HRC</a></li>
-                                   <li><a href="">...</a></li>
-                                </ul>
-                            </li>
-                        </ul>                
-                </div>
             
+           </div>
+            <div id="bus02">
+            <div class="blueBox">
+                <div class="wp1150 s2_contWrap">
+                     <h4 class="title">Software Remote Control  </h4>
+                    <p class="sub_Txt wp1410">윈도우기반의 PC에 대하여 최소한의 자원을 이용하여 실시간으로 제어하는 소프트웨어 제품입니다.</p>
+                    <div class="s2_cont">
+                        <div class="s2_List s2_List1">
+                            <strong>다양한 입력</strong>
+                            <p>서자체 기술력을 바탕으로 다양한 입력소스 수용CCTV, 다양한 물리 입력, 네트워크 소프트웨어 입력</p>
+                        </div>
+                        <div class="s2_List s2_List2">
+                            <strong>Powerful 성능</strong>
+                            <p>GPU를 이용한 Decoding/Rendering으로  CPU/Memory 사용률 최저</p>
+                        </div>
+                        <div class="s2_List s2_List3">
+                            <strong>뛰어난 확장</strong>
+                            <p>기본 4X4ch부터 32ch 이상까지 고객의 요구에 맞춰 제품 제공이 가능한 확장성 보유</p>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+            <div id="bus03" class="wp1410 ">
+            <div class="sBusiness_wrap" id="bus03">
+            
+                    <div class="sBusiness_box scEffect fadeinbottom">
+                           <h4 class="title" style="display: block" >Software Remote Contro </h4>
+                        <p class="sub_Txt wp1410">윈도우기반의 PC에 대하여 최소한의 자원을<br> 이용하여 실시간으로 제어하는 소프트웨어 제품입니다.</p>
+                        <div class="sBusiness_img" style="height:560px; background-image:url(asset/img/sub03.png)"></div>
+                        <div class="sBusiness_cont">
+                           <ul class="sSol_ex">
+                                <li>D3D DXGI 기술을 통한 Capture</li>
+                                <li>Render Control 개발을 통한 Remote Viewer</li>
+                                <li>GPU Decoding/Rendering기술 적용을 통한 최소한의 자원 사용</li>
+                                <li>고속 JPEG Lib 압축</li>
+                                <li>중계 서버를 통한 1 : N 대응</li>
+                               <li> 파일 전송 등 현장에서 필요한 Function 개발 </li>
+                            </ul>
+                            <ul class="sSol_ex">
+                                <li>영상의 품질을 높이기 위한 Auto Scaling </li>
+                                <li>H.264 Format 지원</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div></div>
+            
+            <div id="bus04" style="margin-bottom: 45px">
+            <h4 class="title">Hybrid Remote Control   </h4>
+            <p class="sub_Txt wp1410">원격제어를 위하여 Encode, Decode에 대하여 하드웨어와 소프트웨어 방식을 결합한 제품<br>
+IP 및 광통신 등 신호전송이 가능한 모든 방식의 적용이 가능합니다.</p>
+            <div class="wp1150 scEffect fadeinbottom">
+                <div class="sub_visualImg b02" style="text-align: center">
+                <img src="asset/img/sub04.png" alt="클라우드아키텍처" class="scEffect fadeinbottom act">
+                </div>
+              <!--  <div class="s2_cont">
+                        <div class="s2_List s2_List1">
+                            <strong>01</strong>
+                            <p>하드웨어 타입의 Encoder, Decoder를 사용하여 구성</p>
+                        </div>
+                        <div class="s2_List s2_List2">
+                            <strong>02</strong>
+                            <p>소프트웨어 타입의 Encoder와 하드웨어 타입의 Decoder를 사용하여 구성</p>
+                        </div>
+                        <div class="s2_List s2_List3">
+                            <strong>03</strong>
+                            <p>하드웨어 타입의 Encoder와 소프트웨어 타입의 Decoder를 사용하여 구성</p>
+                        </div>
+                    </div>-->
+                
             </div>
+            
         </div>
-
-
+        </div>
     </div>
+    
 
-
-    <!-- FOOTER -->
+<!-- FOOTER -->
     <footer id="footer">
            <address>
          <span>대표 : 최근용, 안승권, 윤정원, 엄승원 </span>
@@ -280,5 +251,8 @@
     </footer>
     <!-- //FOOTER -->
 
-</body>
-</html>
+
+
+
+
+</body></html>
