@@ -79,7 +79,7 @@ section { overflow: hidden; position: relative; top: 0px; min-width: 320px; widt
 .nvMenu_area .company_area .btn .blog:hover { color: #2db400; }
 .nvMenu_area .company_area .btn .facebook { font-family: "10x10"; }
 .nvMenu_area .company_area .btn .facebook:hover { color: #3b5998; }
-.nvMenu_area .company_area address { float: left; width: 39%; padding: 6px 8% 0 0; font-size: 13px; font-weight: 800; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.nvMenu_area .company_area address { float: left; width: 59%; padding: 6px 8% 0 0; font-size: 13px; font-weight: 800; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .nvMenu_area .company_area address > span { display: block; }
 
 @media (max-width: 1200px) { /* 작은모니터 */
