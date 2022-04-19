@@ -328,6 +328,6 @@
 }
 @media all and (max-width:480px){
 	.composition-list-wrap li{width:calc(50% - 22px);}	
-	.composition-list-wrap li .list-img span{padding-top:150px;}
+	.composition-list-wrap li .list-img span{padding-top:10px;}
 	.composition-list-wrap li.list-02{width:100%;}
 }

@@ -243,7 +243,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0872ba', end
 
 /* ----------------------- 브랜드 소개  ------------------------ */
 /* 공통타이틀 */
-.brand-page .brand-txt{font-size:18px; line-height:1.83em; letter-spacing:-0.75px; color:#000;}
+.brand-txt{font-size:18px; line-height:1.83em; letter-spacing:-0.75px; color:#000;}
 .brand-cm-tit{text-align:center; margin-bottom:8rem; padding:0 15px;}
 .brand-cm-tit .en-tit{font-weight:700; font-size:2.6rem; letter-spacing:-0.025rem; color:#1dc1dd; display:block; margin-bottom:4rem}
 .brand-cm-tit .tit{font-weight:700; font-size:4rem; letter-spacing:-0.075rem; color:#222; margin-bottom:4rem}
@@ -253,18 +253,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0872ba', end
 .brand-sec-wrap{margin-bottom:15rem; }
 .brand-sec-wrap:first-child{margin-top:11rem;}
 .brand-sec-wrap:last-child{margin-bottom:0;}
-
+2
 /* POREST N */
 .porest-top-box{display: table; width:100%; margin-bottom:12rem;}
-.porest-top-box .tit-box{display: table-cell; width:37.5%; vertical-align:middle;}
+.porest-top-box .tit-box{display: table-cell; width:47.5%; vertical-align:middle;}
 .porest-top-box .tit-box .tit{display: inline-block; position: relative; font-size:50px; line-height:1.4em; letter-spacing:-0.75px; color:#333; font-weight:bold;}
 .porest-top-box .tit-box .tit .quotes{position: absolute; font-size:260px; color:#333; opacity:0.05; font-weight:400;}
 .porest-top-box .tit-box .tit .quotes-up{left:-50px; top:70px;}
 .porest-top-box .tit-box .tit .quotes-down{right:-50px; bottom:70px; transform:rotate(180deg);}
-.porest-top-box .txt-box{display: table-cell; width:62.5%; vertical-align:middle;}
+.porest-top-box .txt-box{display: table-cell; width:52.5%; vertical-align:middle;}
 .porest-top-box .txt-box .txt{font-size:18px; line-height:1.83em; letter-spacing:-1.3px; color:#666;}
 
-.porest-con-wrap{background:no-repeat center; background-image:url('/images/brand_porest_bg.jpg'); padding:7.55% 0 5.2%}
+.porest-con-wrap{background:no-repeat center; background-image:url('../images/brand_porest_bg.jpg'); padding:7.55% 0 5.2%}
 .porest-list-wrap{text-align:right}
 .porest-list-wrap li:last-child{margin-right:0;}
 .porest-list-wrap li{position: relative; display: inline-block; margin-right:155px;}
@@ -607,6 +607,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0872ba', end
 .prd-list-con li a .cate-box span{display:inline-block; vertical-align:top; width:5rem; height:2.5rem; line-height:2.5rem; text-align:center; border:1px solid #083250; box-sizing:border-box; border-radius:3px; font-weight:700; font-size:1rem; letter-spacing:-0.025rem; background-color:#fff}
 .prd-list-con li a .cate-box span.best{background-color:#083250; color:#fff}
 .prd-list-con li a .cate-box span.new{color:#083250}
+.src-list{margin-bottom: 25px}
+.src-list li{list-style: disc; font-size: 1.7rem;
+    line-height: 1.41em;
+    letter-spacing: -0.025rem; }
+.porest-top-box .txt-box .list-con .src-list li {
+border-bottom: 0}
 @media all and ( min-width: 801px ){	
 	/*.prd-list-con li a:hover{background-color:#f2f2f2}*/
 	.prd-list-con li a:hover .more-btn{background-color:#083250; color:#fff}
@@ -744,13 +750,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0872ba', end
 
 /* 솔루션 제품구성 */
 .composition-list-wrap{display: flex; flex-wrap:wrap; justify-content: center; text-align:center; margin:0 -11px;}
-.composition-list-wrap li{/* width:calc(20% - 22px); */ width:18.4%; margin:0 11px; }
+.composition-list-wrap li{/* width:calc(20% - 22px); */ width:16.4%; margin:0 11px; }
 .composition-list-wrap li.list-02{width:36.8%;}
-.composition-list-wrap li .list-img{border:1px solid rgba(175,175,175,0.3); border-radius:10px; padding:15px;}
-.composition-list-wrap li .list-img span{display: block; position: relative; width:100%; height:0; padding-top:286px;}
-.composition-list-wrap li.list-02 span{padding-top:286px;}
+.composition-list-wrap li .list-img{display: flex;justify-content:space-around;border:1px solid rgba(175,175,175,0.3); border-radius:10px; padding:15px;}
+.composition-list-wrap li .list-img span{display: block; position: relative; width:40%; height:0; padding:35px 20px; }
+
 .composition-list-wrap li .list-img span img{position: absolute; max-width:100%; max-height:100%; top:0; left:0; right:0; bottom:0; margin:auto}
-.composition-list-wrap li .txt{display: flex; align-items: center; justify-content: center; font-size:1.8rem; line-height:1.33em; letter-spacing:-0.075rem; color:#000; opacity:0.8; min-height:60px; margin-top:18px;}
+.composition-list-wrap li .txt{display: flex; align-items: center; justify-content: center; font-size:1.8rem; line-height:1.33em; letter-spacing:-0.075rem; color:#000; opacity:0.8; min-height:60px;}
 
 /* 솔루션 슬라이드 */
 .solution-exmaple-wrap{position: relative;}
