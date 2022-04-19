@@ -261,7 +261,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0872ba', end
 .porest-top-box .tit-box .tit .quotes{position: absolute; font-size:260px; color:#333; opacity:0.05; font-weight:400;}
 .porest-top-box .tit-box .tit .quotes-up{left:-50px; top:70px;}
 .porest-top-box .tit-box .tit .quotes-down{right:-50px; bottom:70px; transform:rotate(180deg);}
-.porest-top-box .txt-box{display: table-cell; width:42.5%; vertical-align:middle;}
+.porest-top-box .txt-box{display: table-cell; width:38.5%; vertical-align:middle;}
 .porest-top-box .txt-box .txt{font-size:18px; line-height:1.83em; letter-spacing:-1.3px; color:#666;}
 
 .porest-con-wrap{background:no-repeat center; background-image:url('../images/brand_porest_bg.jpg'); padding:7.55% 0 5.2%}
