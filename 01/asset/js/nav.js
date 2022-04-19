@@ -245,6 +245,7 @@ function checkPrevNextLink () {
 		$sub_prev_page_btn.find(".sub-page-name").text($gnbItem.eq(dep1_menu_lang-1).children("a").text());
 	}
 }
+
 // 서브메뉴에서 해당메뉴 인덱스 on
 function activeMenuIdx () {
 	if ( dep1 > 0 && dep2 > 0) {

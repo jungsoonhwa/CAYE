@@ -227,21 +227,6 @@ $(document).ready(function  () {
 		});
 	}
 
-	/* ************************
-	* Func : 상단 :: 검색 toggle
-	************************ */	
-	$(".header-search-box").each(function  () {
-		var $searchBox = $(this);
-		var $openBtn = $(this).find(".header-search-open-btn");
-		var $closeBtn = $(this).find(".header-search-close-btn");
-		
-		$openBtn.click(function  () {
-			$searchBox.addClass("open");
-		});
-		$closeBtn.click(function  () {
-			$searchBox.removeClass("open");
-		});
-	});
 
 	/* ************************
 	* Func : 상단 :: 사이트맵 

@@ -121,7 +121,7 @@
 	.summary-top-box > .area{bottom:-20px;}
 }
 
-/* ----------------------- 사업분야  ------------------------ */
+/* ----------------------- 사업영역  ------------------------ */
 @media all and (min-width:1921px){	
 	.field-sub-sec .bg{background-size:cover !important}
 }
@@ -134,11 +134,11 @@
 }
 @media all and (max-width:1460px){	
 	/* 컨텐츠03 */
-	#fieldContent3 .bg{background:url(/images/content/field_con_bg_03.jpg) no-repeat 90% 50%;}
+	#fieldContent3 .bg{background:url(/images/field_con_bg_03.jpg) no-repeat 90% 50%;}
 	#fieldContent3.field-sub-sec .field-dot .dot-item.item-02{padding-left:3.6rem; right:1040px !important}
 	#fieldContent3.field-sub-sec .field-dot .dot-item.item-02 em{top:10px; left:0; position:absolute; margin:0}
 	/* 컨텐츠04 */
-	#fieldContent4 .bg{background:url(/images/content/field_con_bg_04.jpg) no-repeat 80% 50%;}
+	#fieldContent4 .bg{background:url(/images/field_con_bg_04.jpg) no-repeat 80% 50%;}
 	#fieldContent4.field-sub-sec .field-dot .dot-item.item-02{right:900px !important}
 	/* 컨텐츠06 */
 	#fieldContent6.field-sub-sec .field-dot .dot-item.item-01{right:1000px !important}
