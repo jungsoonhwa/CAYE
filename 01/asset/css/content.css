@@ -81,7 +81,7 @@
 
 /* summary :: ci */
 .ci-logo-box{border:1px solid #e4e4e4; padding:72px;}
-.ci-logo-box span{display: block; max-width:370px; margin:auto;}
+.ci-logo-box span{display: block; max-width:720px; margin:auto;}
 .ci-logo-box span img{width:100%;}
 .ci-table-box{display: table; width:100%; margin-top:60px;}
 .ci-table-box .ci-tit-box{display: table-cell; width:33.83%; vertical-align:top;}
