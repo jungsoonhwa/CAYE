@@ -118,7 +118,9 @@
 	.main-public-con{padding:0 15px}
 	.main-public-con .area-box{padding:0}
 	.main-public-slide{margin:5rem 0 0}
-	.main-public-slide li{min-width:auto}
+	.main-public-slide li{min-width:100%; display: block;float:none;
+    margin: 1rem;
+}
 	.main-public-slide li a{padding:10% 9%}
 	.public-control.cm-style-control{margin-top:3rem}
 }

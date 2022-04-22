@@ -231,7 +231,7 @@ table, th, td{word-break:break-word;}
 
 /* ****************** SUB LAYOUT ********************** */
 /*  SUB LAYOUT :: 비주얼 */
-#visual{/*position:relative; */position:fixed; top:0; left:0; overflow:hidden; width:100%; height:61rem; background-color:#000}
+#visual{/*position:relative; */position:fixed; top:0; left:0; overflow:hidden; width:100%; height:41rem; background-color:#000}
 #visual .visual-img-con{
 	position:absolute; 
 	top:0px; 
@@ -335,7 +335,7 @@ table, th, td{word-break:break-word;}
 #contentInfoCon .content-tit{font-size:4rem; font-weight:700; letter-spacing:-0.075rem;}
 #contentInfoCon .content-sub-tit{opacity:0.3; font-weight:700; margin-top:25px; font-size:1.6rem; letter-spacing:0; word-break:keep-all; text-transform:uppercase}
 
-#middleArea{margin-top:61rem; position:relative; z-index:9; background-color:#fff}
+#middleArea{margin-top:41rem; position:relative; z-index:9; background-color:#fff}
 
 /* ****************** MODAL LAYERPOPUP ********************** */
 /* modal layer */
