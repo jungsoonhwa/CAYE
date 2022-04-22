@@ -174,7 +174,7 @@ table, th, td{word-break:break-word;}
 /* ****************** FOOTER ********************** */
 /* Footer :: 레이아웃 */
 #mainFooter{background-color:#083250; }
-#footer{background-color:#083250; padding:105px 0 190px; position:relative; z-index:9}
+#footer{background-color:#083250; padding:65px 0 70px; position:relative; z-index:9}
 #footerInner{position:relative; }
 .footer-left-con{float:left; width:calc(100% - 35rem)}
 .footer-right-con{float:right; width:35rem; text-align:right}
