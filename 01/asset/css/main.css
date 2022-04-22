@@ -113,7 +113,7 @@
 
 /* 메인 비주얼 :: 컨트롤러 */
 .main-visual-control{position:absolute; right:0; bottom:-14rem; z-index:9999; background-color:#083250; opacity:0; transition:bottom ease-out 0.9s 0.7s, opacity ease-out 0.5s 0.7s; z-index:10}
-.cm-style-control{display:table; table-layout:fixed; width:48rem; height:14rem; text-align:center}
+.cm-style-control{display:table; table-layout:fixed; width:48rem; height:8rem; text-align:center}
 .cm-style-control .control-inner{display:table-cell; vertical-align:middle}
 .cm-style-control .control-inner > span{display:inline-block; vertical-align:middle}
 @media all and ( min-width: 1025px ){
